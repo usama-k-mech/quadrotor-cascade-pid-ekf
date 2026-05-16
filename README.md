@@ -14,13 +14,26 @@ A closed-loop Guidance, Navigation, and Control (GNC) simulation of a nonlinear 
 ---
 
 ## Results
-| Metric | Nominal | Stress GPS×5 |
-|--------|---------|--------------|
-| Position RMSE X | 0.187 m | 0.985 m |
-| Position RMSE Y | 0.161 m | 0.709 m |
-| Position RMSE Z | 0.191 m | 1.213 m |
-| NEES            | 12.72   | 36.16   |
 
+| State | Nominal | Stress (GPS×5) |
+|-------|---------|----------------|
+| x | 0.187 m | 0.985 m |
+| y | 0.161 m | 0.709 m |
+| z | 0.191 m | 1.213 m |
+| vx | 0.137 m/s | 0.260 m/s |
+| vy | 0.126 m/s | 0.229 m/s |
+| vz | 0.136 m/s | 0.235 m/s |
+| φ (roll) | 0.0157 rad | 0.0227 rad |
+| θ (pitch) | 0.0153 rad | 0.0272 rad |
+| ψ (yaw) | 0.0211 rad | 0.0211 rad |
+| p | 0.0056 rad/s | 0.0056 rad/s |
+| q | 0.0055 rad/s | 0.0055 rad/s |
+| r | 0.0057 rad/s | 0.0057 rad/s |
+
+**NEES** (mean over figure-8 phase, ideal ≈ 12.0 for a 12-state filter):
+- Nominal: **12.72** — statistically consistent
+- Stress (GPS×5): **37.76** — filter stressed but navigation maintained
+  
 ---
 
 ## Visualizations
