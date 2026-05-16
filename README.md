@@ -31,8 +31,8 @@ A closed-loop Guidance, Navigation, and Control (GNC) simulation of a nonlinear 
 | r | 0.0057 rad/s | 0.0057 rad/s |
 
 **NEES** (mean over figure-8 phase, ideal ≈ 12.0 for a 12-state filter):
-- Nominal: **12.72** — statistically consistent
-- Stress (GPS×5): **37.76** — filter stressed but navigation maintained
+- Nominal: **12.72** - statistically consistent
+- Stress (GPS×5): **37.76** - filter stressed but navigation maintained
   
 ---
 
