@@ -46,8 +46,8 @@ Mission: 8 m x 4 m figure-8 (omega = 0.1 rad/s, period about 63 s) at 1.5 m alti
 | vz | 0.1340 m/s | 0.2801 m/s |
 | phi roll | 0.0162 rad (0.93 deg) | 0.0260 rad (1.49 deg) |
 | theta pitch | 0.0149 rad (0.85 deg) | 0.0313 rad (1.79 deg) |
-| psi yaw | 0.0211 rad (1.21 deg) | 0.0211 rad (unchanged) |
-| p, q, r | about 0.0056 rad/s | about 0.0056 rad/s (unchanged) |
+| psi yaw | 0.0211 rad (1.21 deg) | 0.0211 rad |
+| p, q, r | about 0.0056 rad/s | about 0.0056 rad/s |
 
 **3D position RMSE: 0.30 m nominal** with a 0.5 m sigma consumer-GPS sensor at only 10 Hz. The filter beats its own position sensor. Roll and pitch estimation stay below 1 degree.
 
@@ -116,7 +116,6 @@ Runtime is several minutes (three 18,000-step closed-loop simulations with a var
 | `fig3_nees.png` | NEES consistency over time |
 | `fig4_innovations.png` | Innovation sequences per sensor |
 | `fig5_covariance.png` | 1-sigma position uncertainty evolution |
-| `fig6_3d_trajectory.png` | 3D trajectories, nominal and stress |
 
 ## Repository Structure
 
